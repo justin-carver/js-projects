@@ -5,7 +5,7 @@ List of the following projects:
 - [] Simple Text-Based Adventure Game
 - [] Clock + Startpage w/ Weather Information and News
 - [] Bitcoin Game: "buy" Bitcoin and watch performance over time.
-- [] Dynamic Typing Test
+- [x] Typing Test Webpage (Learn WPM Calculations)
 - [] Choose Your Own Adventure Game (Choosing List Objectives)
 - [] Dice Rolling Simulator (Complete w/ 3D & Multiple Dice Rolls)
 - [] Retirement Calculator / Net Worth Website
