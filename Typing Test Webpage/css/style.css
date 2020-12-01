@@ -1,0 +1,104 @@
+html {
+    background-color: #3498db;
+    color: #FFF;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#counter {
+    float: right;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.quote-wrapper {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+    padding: 20px 10px 20px 10px;
+    font-family: 'Joesefin Sans', sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.quote-wrapper #quote {
+    font-style: italic;
+    color: #000;
+    font-size: 24px;
+}
+
+.quote-wrapper #author {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+.statistics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding: 10px;
+    margin-top: 35px;
+    color: #000;
+}
+
+.statistics p {
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+
+.statistics h2 {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+.typing-area #user-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.typing-area #begin {
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+}
+
+.typing-header span{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    width: auto;
+}
+
+.typing-header p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    display: block;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+} 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Typing Test</title>
+        <meta name="author" content="name">
+        <meta name="description" content="description here">
+        <meta name="keywords" content="keywords,here">
+        <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    </head>
+  <body>
+      <div class="wrapper">
+        <div class="typing-header">
+            <span>JavaScript Typing Test</span>
+            <p>A simple typing test using jQuery and vanilla JavaScript. Created by Justin Carver.</p>
+        </div>
+        <div class="quote-wrapper">
+          <p id="quote">Click the "New Quote" button below to get a new book excerpt by Nobel Laureates!</p>
+          <p id="author"></p>
+        </div>
+        <button type="submit" id="quote-button">New Quote</button>
+        <div class="typing-area">
+          <p id="begin">Once you're ready, begin typing! The counter will only begin once a key is pressed. You have <strong>60</strong> seconds! <span id="counter"></span></p>
+          <input id="user-input" type="text"/>
+        </div>
+        <div class="statistics">
+          <h2>Typing Statistics</h2>
+          <p>Once you start typing, your statistics will update here after 60 seconds! Keep going!</p>
+          <p id="total-characters"></p>
+          <p id="wpm"></p>
+          <p id="cpm"></p>
+        </div>
+      </div>
+      <script src="js/typing.js"></script>
+  </body>
+</html>
